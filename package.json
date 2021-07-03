@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-nth",
+  "version": "1.0.0",
+  "description": "ESLint and Prettier Config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nth-js/eslint-config-nth.git"
+  },
+  "scripts": {
+    "start": "npx install-peerdeps --global eslint-config-nth@latest"
+  },
+  "author": "Hung Nguyen <nthung2112@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/nth-js/eslint-config-nth/issues"
+  },
+  "homepage": "https://github.com/nth-js/eslint-config-nth#readme",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "nth-js"
+  ]
+}
